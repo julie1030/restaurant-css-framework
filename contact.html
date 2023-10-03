@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <div class="mb-3">
+    <div class="mb-3"> <!--FORMULAIRE-->
         <label for="exampleFormControlInput1" class="form-label">Prénom</label>
         <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
     </div>
@@ -27,17 +27,30 @@
     <div class="mb-3">
         <label for="exampleFormControlInput1" class="form-label">Sujet</label>
         <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        <!--LISTE DEROULANTE-->
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Dropdown button
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Se plaindre</a></li>
+                <li><a class="dropdown-item" href="#">Nous critiquer</a></li>
+                <li><a class="dropdown-item" href="#">Demander la fermeture de notre restaurant</a></li>
+                <li><a class="dropdown-item" href="#">Réservation annuelle de clapiottes surgelées</a></li>
+                <li><a class="dropdown-item" href="#">Nous souhaiter de bonne vacances</a></li>
+            </ul>
+        </div>
     </div>
     <div class="mb-3">
         <label for="exampleFormControlTextarea1" class="form-label">Votre message</label>
         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
     </div>
-
-    <!-- 
-    Milmort
-    Couillet
-    Jambes -->
-
+    <!--BOUTON SUBMIT-->
+    <button type="button" class="btn btn-primary"
+        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+        Envoyer
+    </button>
 </body>
 
 </html>
