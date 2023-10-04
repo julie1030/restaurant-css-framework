@@ -14,73 +14,80 @@
 <title>Contact</title>
 </head>
 
-<body> <!-- BARRE DE NAVIGATION -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <!-- <a class="navbar-brand" href="index.html">Bienvenue</a> -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="contact.html"></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Bienvenue</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="menu.html">Notre menu</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="restaurants.html">Nos restaurants</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="pictures.html">Gallerie photos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                </ul>
+<body>
+    <div class="container-fluid">
+        <div class="container">
+            <!-- BARRE DE NAVIGATION -->
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <!-- <a class="navbar-brand" href="index.html">Bienvenue</a> -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="contact.html"></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Bienvenue</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="menu.html">Notre menu</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="restaurants.html">Nos restaurants</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="pictures.html">Gallerie photos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="mb-3"> <!--FORMULAIRE-->
+                <label for="exampleFormControlInput1" class="form-label">Prénom</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Jean">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Nom</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Bonbeurre">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1"
+                    placeholder="jean.bonbeurre@martoni.com">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Sujet</label>
+                <!-- <input type="email" class="form-control" id="exampleFormControlInput1"
+            placeholder="pas content ! remboursez, nos invitations!"> -->
+                <!--LISTE DEROULANTE-->
+
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Remboursez ! Nos Invitations !</option>
+                    <option value="1">Vous plaindre</option>
+                    <option value="2">Nous critiquer</option>
+                    <option value="3">Demander la fermeture de notre resto</option>
+                    <option value="2">Réservation annuelle de clapiottes surgelées</option>
+                </select>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Votre message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <!--BOUTON SUBMIT-->
+                <button type="button" class="btn btn-primary"
+                    style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                    Envoie pour voir
+                </button>
             </div>
         </div>
-    </nav>
 
-    <div class="mb-3"> <!--FORMULAIRE-->
-        <label for="exampleFormControlInput1" class="form-label">Prénom</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Jean">
-    </div>
-    <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">Nom</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Bonbeurre">
-    </div>
-    <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">Email address</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="jean.bonbeurre@martoni.com">
-    </div>
-    <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">Sujet</label>
-        <!-- <input type="email" class="form-control" id="exampleFormControlInput1"
-            placeholder="pas content ! remboursez, nos invitations!"> -->
-        <!--LISTE DEROULANTE-->
-
-        <select class="form-select" aria-label="Default select example">
-            <option selected>Remboursez ! Nos Invitations !</option>
-            <option value="1">Vous plaindre</option>
-            <option value="2">Nous critiquer</option>
-            <option value="3">Demander la fermeture de notre resto</option>
-            <option value="2">Réservation annuelle de clapiottes surgelées</option>
-        </select>
-        <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Votre message</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        </div>
-        <!--BOUTON SUBMIT-->
-        <button type="button" class="btn btn-primary"
-            style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
-            Envoie pour voir
-        </button>
 </body>
 
 </html>

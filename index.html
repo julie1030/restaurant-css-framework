@@ -13,6 +13,8 @@
 </head>
 <title>Welcome</title>
 
+
+
 <body>
     <div class="container-fluid">
         <div class="container">
@@ -20,34 +22,49 @@
             <script type="text/javascript" src="https://cookieconsent.popupsmart.com/src/js/popper.js"></script>
             <script> window.start.init({ Palette: "palette4", Time: "10", })</script>
             <!-- BARRE DE NAVIGATION -->
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="index.html"><em>Le meilleur restaurant de Belgique</em></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="index.html">Bienvenue</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="menu.html">Notre menu</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="restaurants.html">Nos restaurants</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="pictures.html">Gallerie photos</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="contact.html">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
+            <div class="d-flex">
+                <div class="flex-shrink-0">
+                    <img src="logoresto.avif" alt="logo restaurant" width="200">
                 </div>
-            </nav>
+                <div class="flex-grow-1 ms-3">
+                    <h1><em>Le meilleur restaurant de Belgique</em></h1>
+                </div>
+            </div>
+            <div class="row">
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <div class="container-fluid">
+                        <!-- <a class="navbar-brand" href="index.html">
+                            <h1><em>Le meilleur restaurant de Belgique</em></h1><img src="logoresto.avif"
+                                alt="logo du restaurant martoni, forme bleue sur fond blanc représentant le groin d'un cochon"
+                                width="100">
+                        </a> -->
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="index.html">Bienvenue</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="menu.html">Notre menu</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="restaurants.html">Nos restaurants</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="pictures.html">Gallerie photos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
             <!-- JUMBOTRON -->
             <div class="bg-light p-5 rounded-lg m-3">
                 <h1 class="display-4">Chez MARTONI</h1>
@@ -59,7 +76,8 @@
                     succés grandissant
                     de son premier restaurant, il ouvre courageusement un second établissement à
                     <strong>Couillet</strong>, puis
-                    à <strong>Jambes</strong>.</p>
+                    à <strong>Jambes</strong>.
+                </p>
                 <hr class="my-4">
             </div>
             <!-- PANEL 1 -->
