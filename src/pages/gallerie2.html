@@ -4,16 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
-    <script type="module" defer src="js/includes.js"></script>
+    <script type="module" defer src="../js/main.js"></script>
+
 </head>
 <title>Gallerie</title>
-</head>
 
 <body>
     <div class="container">
@@ -29,7 +23,7 @@
 
                         <div class="col">
                             <div class="card shadow-sm pix">
-                                <img src="images/salleresto.jpg" alt="salle de restaurant désafectée et sale" />
+                                <img src="/images/salleresto.jpg" alt="salle de restaurant désafectée et sale" />
                                 <div class="card-body">
                                     <p class="card-text">Un décor sobre et chaleureux.</p>
                                     <div class="d-flex justify-content-between align-items-center">
@@ -40,7 +34,7 @@
 
                         <div class="col">
                             <div class="card shadow-sm pix">
-                                <img src="images/bouffe2.jpg"
+                                <img src="/images/bouffe2.jpg"
                                     alt="étalage de poissons qui sont ouverts et sanguinolants" />
                                 <div class="card-body">
                                     <p class="card-text">Ici c'est une vraie boucherie mais on sait aussi vider les
@@ -53,7 +47,7 @@
 
                         <div class="col">
                             <div class="card shadow-sm pix">
-                                <img src="images/escaliers.jpg" alt="escaliers glauques en noir et blanc" />
+                                <img src="/images/escaliers.jpg" alt="escaliers glauques en noir et blanc" />
                                 <div class="card-body">
                                     <p class="card-text">Commodités spacieuses et comfortables à l'étage...</p>
                                     <div class="d-flex justify-content-between align-items-center">
@@ -65,15 +59,8 @@
                     </div>
                 </div>
             </div>
-            <nav aria-label="Page navigation example">
-                <ul class="pagination">
-                    <li class="page-item"><a class="page-link" href="pictures.html">Previous</a></li> <!--PAGINATION-->
-                    <li class="page-item"><a class="page-link" href="pictures.html">1</a></li>
-                    <li class="page-item"><a class="page-link active" href="pictures2.html">2</a></li>
-                    <li class="page-item"><a class="page-link" href="pictures3.html">3</a></li>
-                    <li class="page-item"><a class="page-link" href="pictures3.html">Next</a></li>
-                </ul>
-            </nav>
+            <nav aria-label="Page navigation" id="pagination"></nav>
+
         </main>
 
     </div>

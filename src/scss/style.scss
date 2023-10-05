@@ -1,3 +1,9 @@
+// Import all of Bootstrap's CSS
+@import "bootstrap/scss/bootstrap";
+
+body {
+}
+
 .nav-brand {
     text-align: center;
 }
@@ -15,6 +21,36 @@
     margin: 1rem 0 .5rem 0;
 }
 
-.restaurant .card {
+.card {
     margin: 1rem 0 .5rem 0;
+}
+
+.logo {
+    padding: 1rem;
+    text-align: center;
+}
+
+.baseline {
+    text-align: center;
+}
+
+.bienvenue {
+    margin-bottom: 0;
+    padding: 3rem;
+}
+
+.jumbotron {
+    color: bisque;
+    background-image: url('/images/abats.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 20rem;
+}
+
+.header-text {
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    height: 100%;
 }
