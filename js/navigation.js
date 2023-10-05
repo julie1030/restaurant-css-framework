@@ -1,7 +1,7 @@
 export const navigation = `
     <div class="d-flex">
             <div class="flex-shrink-0">
-                <img src="logoresto.avif" alt="logo restaurant" width="200">
+                <img src="images/logoresto.avif" alt="logo restaurant" width="200">
             </div>
             <div class="flex-grow-1 ms-3">
                 <h1><em>Le meilleur restaurant de Belgique</em></h1>
@@ -11,7 +11,7 @@ export const navigation = `
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
                 <!-- <a class="navbar-brand" href="index.html">
-                        <h1><em>Le meilleur restaurant de Belgique</em></h1><img src="logoresto.avif"
+                        <h1><em>Le meilleur restaurant de Belgique</em></h1><img src="images/logoresto.avif"
                             alt="logo du restaurant martoni, forme bleue sur fond blanc représentant le groin d'un cochon"
                             width="100">
                     </a> -->

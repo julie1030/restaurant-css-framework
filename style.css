@@ -10,3 +10,11 @@
 .pix .card-body {
     min-height: 8rem;
 }
+
+.restaurant h1, .restaurant h2, .restaurant h3 {
+    margin: 1rem 0 .5rem 0;
+}
+
+.restaurant .card {
+    margin: 1rem 0 .5rem 0;
+}
