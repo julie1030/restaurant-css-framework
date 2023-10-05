@@ -1,7 +1,12 @@
-body {
-    background-color: rgb(54, 53, 53);
-}
-
 .nav-brand {
     text-align: center;
+}
+
+.pix img {
+    height: 20rem;
+    object-fit: cover;
+}
+
+.pix .card-body {
+    min-height: 8rem;
 }
