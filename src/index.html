@@ -4,13 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
-    <script type="module" defer src="js/includes.js"></script>
+
+    <script type="module" src="./js/main.js"></script>
 </head>
 <title>Welcome</title>
 
@@ -21,13 +16,18 @@
         <!-- Pop-up cookie RGPD -->
         <script type="text/javascript" src="https://cookieconsent.popupsmart.com/src/js/popper.js"></script>
         <script> window.start.init({ Palette: "palette4", Time: "10", })</script>
+
+
+        <div class="flex-grow-1 ms-3 baseline">
+            <h3><em>Le meilleur restaurant de Belgique</em></h3>
+        </div>
         <!-- BARRE DE NAVIGATION -->
 
         <div id="navigation"></div>
         <!-- JUMBOTRON -->
-        <div class="bg-light p-5 rounded-lg m-3">
+        <div class="px-5 text-bg-dark bienvenue">
             <h1 class="display-4">Chez MARTONI</h1>
-            <p class="lead">Bienvenue sur le site de notre enseigne.<br> En 1996, <em>Pierre Martoni</em> se fait
+            <p>Bienvenue sur le site de notre enseigne.<br> En 1996, <em>Pierre Martoni</em> se fait
                 connaître
                 par son
                 plat phare : les clapiottes.<br> Il ouvre sa première enseigne: près de <strong>Milmort</strong>.
@@ -37,24 +37,28 @@
                 <strong>Couillet</strong>, puis
                 à <strong>Jambes</strong>.
             </p>
-            <hr class="my-4">
+        </div>
+        <div class="px-5 rounded-lg jumbotron">
+            <div class="header-text">
+                <h1 class="display-4">Le poumon frais</h1>
+            </div>
         </div>
         <!-- PANEL 1 -->
         <div class="card" style="width: 18rem;">
-            <img src="images/citrouille.jpg" class="card-img-top"
+            <img src="/assets/citrouille.jpg" class="card-img-top"
                 alt="photo d'une vraie citrouille taillée avec une bouche et des yeux et qui vomi des pépins et des épluchures">
             <div class="card-body">
                 <p class="card-text">Spécial Halloween:<br> 1 repas vomi = 1 repas offert !</p>
             </div>
         </div>
         <!-- PANEL 2 -->
-        <div class="card text-bg-dark">
-            <img src="images/abats.jpg" class="card-img" alt="photo de rumen, abats">
+        <!-- <div class="card text-bg-dark">
+            <img src="/assets/abats.jpg" class="card-img" alt="photo de rumen, abats">
             <div class="card-img-overlay">
                 <h3 class="card-title">Spécialités de la maison</h3>
                 <p class="card-text">Les abats, une tradition, un mode de vie....</p>
             </div>
-        </div>
+        </div> -->
         <!--PANEL double 3-->
         <div class="row">
             <div class="col-sm-6 mb-3 mb-sm-0">
