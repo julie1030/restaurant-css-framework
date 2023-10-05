@@ -13,11 +13,20 @@ L'humour étant permi pour cet exercice, je suis partie dans une inspiration de 
 ## Premier jet
 
 layout simple:
-![photo de mon layout initial] (IMG_0239.jpg "Layout p2 à 5")
-![photo de mon layout initial] (IMG_0240.jpg "Layout p1")
+![photos de mon layout initial] (layout1.jpg "Layout p2 à 5")
+![photo de mon layout initial] (layout2.jpg "Layout p1")
 
+## Technologie utilisées:
+- vite
+- bootstrap
+- scss
+- js
+  
+## dévelopement:
 
-## Versioning
+1. `git clone` project
+2. `pnpm install # or npm install # or yarn` to install dependencies
+3. `pnpm run start # or npm start # or yarn ...` to start developing
 
 
 ## Author
