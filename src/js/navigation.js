@@ -2,7 +2,7 @@ export const getNavigation = ({ logoUrl }) => `
 <div class="container">
 
     <div class="logo">
-        <a href="/">
+        <a href="/restaurant-css-framework">
         <img src="${logoUrl}" alt="logo restaurant" width="150">
         </a>
     </div>
