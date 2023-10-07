@@ -6,6 +6,7 @@ export const getNavigation = ({ logoUrl }) => `
         <img src="${logoUrl}" alt="logo restaurant" width="150">
         </a>
     </div>
+
     <div class="row">
         <nav class="navbar navbar-expand-md bg-body-tertiary">
             <div class="container-fluid">
