@@ -4,49 +4,33 @@
 $font-3: 'Arial';
 
 body {
+    
     h3{
-        color: red;
+        color: rgba(188, 136, 32, 0.63);
     }
+
+    background-image: url(../assets/mur-bois.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
 }
 
 p{
-    color:blue;
+    color:rgb(55, 17, 17);
 }
 
-.hero.h1 , p.h1 {  
-    height: 60vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background-color: linear-gradient(rgba($yellow, 0.5));  // opacité et filtre de couleur
-    background-repeat: no-repeat;
-    background-size: cover;  //pour que l'image prenne tout l'espace
-
-    &__tittle {
-        font-family: $font-3;
-        font-size: 8rem;
-        letter-spacing: 2px;
-        font-weight: 400;
-        line-height: 0.7;
-        color:rgb(85, 28, 6);
-
-    }
-
-    &__subtittle {
-        font-family: $font-3;
-        font-size: 5rem;
-        letter-spacing: 2px;
-        font-weight: 100;
-        line-height: 0.4;
-        color:bisque;
-    &--gold {
-        color:goldenrod;
-    }
-
-    }
+.bloc1 {
+    background-color: rgb(68, 20, 20);
+    color:bisque
+}
+.bloc2 {
+    background-color: bisque;
+}
 
 
+
+.div.class.container {
+    background-color: brown;
 }
 .nav-brand {
     text-align: center;
@@ -86,18 +70,21 @@ p{
 .jumbotron {
     color: bisque;
     background-image: url('/images/abats.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
-    height: 20rem;
+    
 }
 .card-text{
     height: fit-content;
-    background-color: aqua;
+    background-color: rgb(231, 223, 182);
+
 }
-// .header-text {
-//     display: flex;
-//     justify-content: end;
-//     align-items: flex-end;
-//     height: 100%;
-// }
+container-py-5{
+    background-color: chocolate;
+}
+
+footer {
+    ul a, p {
+        color:bisque;
+        font-weight: 700;
+    }
+}
