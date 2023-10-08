@@ -4,30 +4,50 @@
 $font-3: 'Arial';
 
 body {
-    
+    h1 {
+        color: bisque;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    h2{
+        color:beige;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        font-style: italic;
+    }
     h3{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: medium;
         color: rgba(188, 136, 32, 0.63);
     }
-
-    background-image: url(../assets/mur-bois.jpg);
+    h4{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: medium;
+        font-weight: 700;
+        color:rgb(55, 17, 17) ;
+    }
+    background-image: url(../assets/fondcuir.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-
 }
-
+.espace {
+    padding: 1rem;
+}
 p{
     color:rgb(55, 17, 17);
 }
 
 .bloc1 {
     background-color: rgb(68, 20, 20);
-    color:bisque
+    opacity:0.9;
+    color:bisque;
+    height: 400px;
+    padding-top: 10px;
 }
 .bloc2 {
     background-color: bisque;
-}
-
-
+    padding: 1px;
+    opacity:0.9;
+} 
 
 .div.class.container {
     background-color: brown;
@@ -48,7 +68,14 @@ p{
 .restaurant h1, .restaurant h2, .restaurant h3 {
     margin: 1rem 0 .5rem 0;
 }
-
+.restautant h1, .restaurant h2, .restaurant h3, .restaurant p {
+    color:rgb(55, 17, 17);
+}
+.adresses-horaires{
+    background-color: bisque;
+    color:rgb(55, 17, 17);
+    padding-left: 1rem;
+}
 .card {
     margin: 1rem 0 .5rem 0;
 }
@@ -56,15 +83,6 @@ p{
 .logo {
     padding: 1rem;
     text-align: center;
-}
-
-.baseline {
-    text-align: center;
-}
-
-.bienvenue {
-    margin-bottom: 0;
-    padding: 3rem;
 }
 
 .jumbotron {
@@ -75,11 +93,6 @@ p{
 }
 .card-text{
     height: fit-content;
-    background-color: rgb(231, 223, 182);
-
-}
-container-py-5{
-    background-color: chocolate;
 }
 
 footer {
