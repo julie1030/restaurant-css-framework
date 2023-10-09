@@ -4,7 +4,7 @@ export const footer =
                 <li><a href="/restaurant-css-framework/index.html">Accueil</a></li>
                 <li><a href="/restaurant-css-framework/menu.html">Menu</a></li>
                 <li><a href="href="/restaurant-css-framework/restaurants.html">Nos adresses</a></li>
-                <li><a href="href="/restaurant-css-framework/pictures.html">Gallerie</a></li>
+                <li><a href="href="/restaurant-css-framework/gallerie1.html">Gallerie</a></li>
                 <li><a href="/restaurant-css-framework/contact.html">Contact</a></li>
             </ul>
             <p class="text-center">© 2023 Company, Inc</p>

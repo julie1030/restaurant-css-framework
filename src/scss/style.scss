@@ -79,7 +79,9 @@ p{
 .card {
     margin: 1rem 0 .5rem 0;
 }
-
+.card-body {
+    
+}
 .logo {
     padding: 1rem;
     text-align: center;
@@ -94,10 +96,16 @@ p{
 .card-text{
     height: fit-content;
 }
-
+.form-label {
+    background-color: antiquewhite;
+    opacity: 0.7;
+}
 footer {
     ul a, p {
         color:bisque;
         font-weight: 700;
+    }
+    li {
+        margin-right: 1rem;
     }
 }
