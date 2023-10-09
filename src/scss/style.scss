@@ -32,6 +32,8 @@ body {
 .logo {
     padding: 1rem;
     text-align: center;
+    background-color:rgb(216, 159, 47) ;
+    border-radius: 50%;
 }
 .espace {
     padding: 1rem;
@@ -47,9 +49,9 @@ p{
     height: 400px;
     padding-top: 10px;
 }
-// .navbar {
-//     background-color: aqua;
-// }
+.navbar {
+    background-color:rgb(216, 159, 47);
+}
 .nav-brand {
     text-align: center;
 }
@@ -59,7 +61,6 @@ p{
 .bloc2 {
     background-color: bisque;
     padding: 1px;
-    opacity:0.9;
 } 
 .pix img {
     height: 20rem;
@@ -67,11 +68,14 @@ p{
 }
 .card {
     margin: 1rem 0 .5rem 0;
+    background-color: bisque;
 }
 // .card-text{
 //     height: fit-content;
 // }
-
+.gallerie {
+    background-color:rgb(118, 58, 58);
+}
 .restaurant h1, .restaurant h2, .restaurant h3 {
     margin: 1rem 0 .5rem 0;
 }
@@ -89,8 +93,16 @@ p{
     background-size: cover;
 }
 .form-label {
-    background-color: antiquewhite;
-    opacity: 0.7;
+    background-color:rgb(212, 168, 78);
+    font-style: oblique;
+    opacity: 0.8;
+    margin-bottom: 0%;
+  border-radius: 4px;
+  padding: .5rem .5rem 0 .5rem;
+  font-weight: bold;
+}
+.form-control{
+    background-color: bisque;
 }
 footer {
     ul a, p {
