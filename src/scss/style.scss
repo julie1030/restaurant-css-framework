@@ -4,27 +4,23 @@
 $font-3: 'Arial';
 
 body {
-    h1 {
-        color: bisque;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
     h2{
         color:beige;
         font-family:Verdana, Geneva, Tahoma, sans-serif;
         font-weight: bold;
         font-style: italic;
     }
-    h3{
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: medium;
-        color: rgba(188, 136, 32, 0.63);
-    }
-    h4{
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: medium;
-        font-weight: 700;
-        color:rgb(55, 17, 17) ;
-    }
+    // h3{
+    //     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    //     font-size: medium;
+    //     color: rgba(188, 136, 32, 0.63);
+    // }
+    // h4{
+    //     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    //     font-size: medium;
+    //     font-weight: 700;
+    //     color:rgb(55, 17, 17) ;
+    // }
     background-image: url(../assets/fondcuir.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -41,7 +37,6 @@ body {
 p{
     color:rgb(55, 17, 17);
 }
-
 .bloc1 {
     background-color: rgb(68, 20, 20);
     opacity:0.9;
@@ -52,12 +47,6 @@ p{
 .navbar {
     background-color:rgb(216, 159, 47);
 }
-.nav-brand {
-    text-align: center;
-}
-// .navigation {
-// background-color: aqua;
-// }
 .bloc2 {
     background-color: bisque;
     padding: 1px;
@@ -70,11 +59,16 @@ p{
     margin: 1rem 0 .5rem 0;
     background-color: bisque;
 }
-// .card-text{
-//     height: fit-content;
-// }
 .gallerie {
     background-color:rgb(118, 58, 58);
+}
+.page-link {
+    color:rgb(37, 22, 22);
+    background-color: bisque;
+}
+.pagination {
+   display: flex;
+   justify-content: center  ;
 }
 .restaurant h1, .restaurant h2, .restaurant h3 {
     margin: 1rem 0 .5rem 0;
@@ -97,15 +91,15 @@ p{
     font-style: oblique;
     opacity: 0.8;
     margin-bottom: 0%;
-  border-radius: 4px;
-  padding: .5rem .5rem 0 .5rem;
-  font-weight: bold;
+    border-radius: 4px;
+    padding: .5rem .5rem 0 .5rem;
+    font-weight: bold;
 }
 .form-control{
     background-color: bisque;
 }
 footer {
-    ul a, p {
+    ul a, p, .text-center {
         color:bisque;
         font-weight: 700;
     }
