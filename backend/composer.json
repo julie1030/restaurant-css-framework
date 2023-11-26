@@ -1,0 +1,16 @@
+{
+    "name": "jduss/backend",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "Julie Dussaussois",
+            "email": "j.dussaussois@gmail.com"
+        }
+    ],
+    "require": {}
+}
